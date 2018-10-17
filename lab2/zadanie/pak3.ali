@@ -1,0 +1,105 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U pak3%b		pak3.adb		05cc8e47 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U pak3%s		pak3.ads		9656758a EE NE OO PK
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-calend.ads		20180111085525 2d5f01d4 ada.calendar%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20170908151217 bb51c45a ada.numerics%s
+D a-nuflra.ads		20180111085525 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D pak3.ads		20181017165323 9656758a pak3%s
+D pak3.adb		20181017165439 768ee239 pak3%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgrea.ads		20180111085525 c7a851e2 system.img_real%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-rannum.ads		20180111085525 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r19 1r46 2r5 2r18 2r45
+X 2 a-calend.ads
+36K13*Calendar 395e17 14|1w50 2r49
+X 5 a-numeri.ads
+16K13*Numerics 32e17 14|1r23 2r22
+X 6 a-nuflra.ads
+41K22*Float_Random 74e30 14|1w32 2r31
+47R9*Generator<22|63R9> 14|19r15
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<22|71p13> 14|27s18
+53U14*Reset<22|100p14> 14|24s9
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 2r9
+52P9*File_Type 14|63r14
+53n32*Out_File{53E9} 14|65r20
+86U14*Create 14|65s9
+98U14*Close 14|70s9
+259U14*Put_Line 14|68s13
+263U14*Put_Line 14|12s13 66s9
+X 13 pak3.ads
+1K9*Pak3 12l5 12e9 14|4b14 76l5 76t9
+3A10*Wektor(float)<integer> 4r9 6r35 7r44 8r39 9r42 10r36 14|8r35 17r44 35r39
+. 42r42 62r36
+4a5*W{3A10} 14|74m5
+6U15*WypiszWektor 6>28 14|8b15 15l9 15t21
+6a28 W{3A10} 14|8b28 11r18
+7U15*WypelnijWektorLosowo 7<36 14|17b15 33l9 33t29
+7a36 W{3A10} 14|17b36 26m18 26r18
+8V14*WektorPosortowany{boolean} 8>32 14|35b14 40l9 40t26
+8a32 W{3A10} 14|35b32 38r30 38r40 38r53 38r61
+9U15*SortujBabelkowo 9=31 14|42b15 60l9 60t24
+9a31 W{3A10} 14|42b31 49r18 50r22 51r20 51r27 52r29 53m21 53r29 54m21
+10U15*ZapiszDoPliku 10>29 10>44 14|62b15 71l9 71t22
+10a29 W{3A10} 14|62b29 67r18
+10a44 NazwaPliku{string} 14|62b44 65r30 66r36
+X 14 pak3.adb
+11f13 E=11:18{float} 12r22
+19r9 Gen{6|47R9} 24r15 27r25
+26f13 E=26:18{float} 27r13
+38i25 I{integer} 38r55 38r63
+44f9 Temp{float} 52m21 54r29
+49i13 I{integer} 50r31 51r22 52r31 53r23
+50i17 J{integer} 51r29 53r31 54r23
+63p9 Pl{9|52P9} 65m16 65r16 68r22 70m15 70r15
+67f13 E=67:18{float} 68r26
+

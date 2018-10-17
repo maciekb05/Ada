@@ -1,0 +1,114 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U zad2%b		zad2.adb		2b606a49 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+Z system.img_lld%s	s-imglld.adb		s-imglld.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-calend.ads		20180111085525 2d5f01d4 ada.calendar%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20170908151217 bb51c45a ada.numerics%s
+D a-nuflra.ads		20180111085525 4056ab7a ada.numerics.float_random%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgboo.ads		20180111085525 f5d971eb system.img_bool%s
+D s-imglld.ads		20180111085525 f3220969 system.img_lld%s
+D s-imgrea.ads		20180111085525 c7a851e2 system.img_real%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-rannum.ads		20180111085525 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D zad2.adb		20181017163849 ce7473bd zad2%b
+X 1 ada.ads
+16K9*Ada 20e8 32|1r6 1r19 1r46 2r5 2r18 2r45
+X 2 a-calend.ads
+36K13*Calendar 395e17 32|1w50 2r49
+44I9*Time<213I9> 32|74r13
+58V13*Clock{44I9} 32|82s11 84s11
+105V14*"-"{duration} 32|85s13
+213I9 Time_Rep<long_long_integer>
+X 5 a-numeri.ads
+16K13*Numerics 32e17 32|1r23 2r22
+X 6 a-nuflra.ads
+41K22*Float_Random 74e30 32|1w32 2r31
+47R9*Generator<23|63R9> 32|20r15
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<23|71p13> 32|28s18
+53U14*Reset<23|100p14> 32|25s9
+X 9 a-textio.ads
+49K13*Text_IO 471e16 32|1w10 2r9
+52P9*File_Type 32|64r14
+53n32*Out_File{53E9} 32|66r20
+86U14*Create 32|66s9
+98U14*Close 32|71s9
+259U14*Put_Line 32|69s13
+263U14*Put_Line 32|13s13 67s9 86s5 89s5
+X 32 zad2.adb
+4U11*Zad2 4b11 93l5 93t9
+6A10 Wektor(float)<integer> 7r9 9r35 18r44 36r39 43r42 63r36
+7a5 W{6A10} 79m26 83m21 83r21 89r66 91r19
+9U15 WypiszWektor 9b15 9>28 16l9 16t21
+9a28 W{6A10} 12r18
+12f13 E=12:18{float} 13r22
+18U15 WypelnijWektorLosowo 18b15 18<36 34l9 34t29 79s5
+18a36 W{6A10} 27m18 27r18
+20r9 Gen{6|47R9} 25r15 28r25
+27f13 E=27:18{float} 28r13
+36V14 WektorPosortowany{boolean} 36b14 36>32 41l9 41t26 89s48
+36a32 W{6A10} 39r30 39r40 39r53 39r61
+39i25 I{integer} 39r55 39r63
+43U15 SortujBabelkowo 43b15 43=31 61l9 61t24 83s5
+43a31 W{6A10} 50r18 51r22 52r20 52r27 53r29 54m21 54r29 55m21
+45f9 Temp{float} 53m21 55r29
+50i13 I{integer} 51r31 52r22 53r31 54r23
+51i17 J{integer} 52r29 54r31 55r23
+63U15 ZapiszDoPliku 63b15 63>29 63>44 72l9 72t22 91s5
+63a29 W{6A10} 68r18
+63a44 NazwaPliku{string} 66r30 67r36
+64p9 Pl{9|52P9} 66m16 66r16 69r22 71m15 71r15
+68f13 E=68:18{float} 69r26
+74i5 T1{2|44I9} 82m5 85r15
+74i9 T2{2|44I9} 84m5 85r10
+75o5 D{duration} 85m5 86r37
+
