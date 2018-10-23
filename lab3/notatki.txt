@@ -1,0 +1,4 @@
+.dot program graphviz, do rysowania grafów,
+do sprawozdań,
+pisanie grafow w teksowy sposób
+
