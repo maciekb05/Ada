@@ -1,0 +1,232 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_IMPLICIT_LOOPS
+RV STATIC_DISPATCH_TABLES
+RV SPARK_05
+
+U lab4bst%b		lab4bst.adb		2fd3ef61 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+Z system.address_image%s  s-addima.adb		s-addima.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-contai.ads		20170908151217 61e5e089 ada.containers%s
+D a-cgarso.ads		20170908151217 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20180111085525 20298884 ada.containers.helpers%s
+D a-conhel.adb		20180111085525 9cc5095b ada.containers.helpers%b
+D a-convec.ads		20180111085525 7e2b0fdf ada.containers.vectors%s
+D a-convec.adb		20180111085525 1450cb2b ada.containers.vectors%b
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-finali.ads		20180111085525 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20170908151217 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20170908151217 bb51c45a ada.numerics%s
+D a-nudira.ads		20180111085525 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180111085525 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20170908151217 eff36322 ada.unchecked_deallocation%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D lab4bst.adb		20181029215546 a8000e0b lab4bst%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-addima.ads		20180111085525 a1ec9d3a system.address_image%s
+D s-atocou.ads		20180111085525 b45c2d8d system.atomic_counters%s
+D s-atocou.adb		20180111085525 b65612c0 system.atomic_counters%b
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-finmas.ads		20180111085525 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180111085525 4ff27390 system.finalization_root%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-imguns.ads		20180111085525 9ff43cf7 system.img_uns%s
+D s-memory.ads		20180111085525 597d6634 system.memory%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-pooglo.ads		20180111085525 ede33ef8 system.pool_global%s
+D s-rannum.ads		20180111085525 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180111085525 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180111085525 01a57b33 system.random_seed%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stalib.adb		20180111085525 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180111085525 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180111085525 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180111085525 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180111085525 aedef97e system.stream_attributes%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-valuns.ads		20180111085525 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 22|1r6 1r19 1r49 2r5 2r18 48r32
+X 2 a-contai.ads
+16K13*Containers 24e19 22|1r53 2r22
+20I9*Count_Type<integer>
+X 6 a-convec.ads
+46k24*Vectors 518e27 22|1w64 135r30
+57R9 Vector<9|43R9> 22|139r60[135] 151r39[135] 168r13[135]
+99V13 Length{2|20I9} 22|174s18[135]
+115V13 Element{22|13P6} 22|153s24[135]
+245U14 Append 22|145s15[135]
+X 11 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[6|72]>
+X 12 a-numeri.ads
+16K13*Numerics 32e17 22|1r23 48r36
+X 13 a-nudira.ads
+44k22*Discrete_Random 75e33 22|1w32 48r45
+50R9 Generator<39|63R9> 22|51r11[48]
+52V13 Random{22|47I10} 22|59s17[48]
+55U14 Reset<39|100p14> 22|56s5[48]
+X 14 a-nudira.adb
+53V16 Random[39|83]{22|47I10} 40|392b13[22|48]
+X 17 a-textio.ads
+49K13*Text_IO 471e16 22|1w10 2r9
+52P9*File_Type 22|199r55 220r6
+53n32*Out_File{53E9} 22|248r12
+86U14*Create 22|248s1
+98U14*Close 22|250s1
+259U14*Put_Line 22|202s5 203s5 205s9 206s9 210s9 211s9 214s5
+263U14*Put_Line 22|19s5 184s3 185s5 187s9 188s9 192s9 193s9 196s3 237s5 239s5
+X 20 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 22 lab4bst.adb
+4U11*Lab4bst 4b11 252l5 252t12
+6R6 TElement 11e11
+8i5 Data{integer} 19r16 31m10 36r14 36r27 70r16 72r19 109r19 113r22 126m14
+. 126r27 127r47 185r32 203r36
+9p5 Left 20r13 39m22 73r34 92r19 93r28 111m14 111m34 119r17 122r25 144r28
+. 160m10 186r10 189r21 204r10 207r27
+10p5 Right 22r13 37m22 75r34 115m14 115m35 120r25 121r20 125r33 127m14 127m35
+. 146r28 161m10 191r10 194r21 209r10 212r27
+13P6 Elem_Ptr 26r31 27r9 28r12 45r71 65r43 66r11 88r31 88r48 89r15 100r31
+. 100r63 102r12 135r47 139r35 151r87 153r12 167r34 167r51 218r8
+15U11 Print 15b11 15^17 20s5 22s5 24l5 24t10 234s1 246s1
+15p17 Bst(6R6) 16r26
+16p3 T(6R6) 18r6 19r14 20r11 22r11
+26U11 Insert 26b11 26=18 26>41 37s13 39s13 43l5 43t11 60s9
+26p18 Bst{13P6} 27r21 34m9
+26i41 Val{integer} 31r18 37r29 39r28
+27p5 T{13P6} 33r8 36r12 37r20 39r20
+28p5 Elem{13P6} 31r5 34r16 36r22
+45U11 GenerujIWstaw 45b11 45>25 45>41 45=57 63l5 63t18 225s1
+45i25 N{integer} 58r19
+45i41 M{integer} 47r49
+45p57 Tree{13P6} 60m16
+47I10 IntWZakresie<integer> 48r61 52r12
+48K13 Los_Integer[13|44] 49r9
+51r5 Gen{13|50R9[48]} 56r11 59r24
+52i5 Rand{47I10} 59m9 60r30
+58i9 I{integer}
+65V10 Znajdz{boolean} 65b10 65>17 65>33 73s20 75s20 84l5 84t11 236s4
+65i17 X{integer} 70r23 72r26 73r27 75r27
+65p33 Tree{13P6} 66r23
+66p5 Bst{13P6} 68r8 70r12 72r15 73r30 75r30
+88V10 MinValNode{13P6} 88b10 88>21 98l5 98t15 125s17
+88p21 Node{13P6} 89r27
+89p5 Current{13P6} 92r11 93m9 93r20 96r12
+100V10 Delete{13P6} 100b10 100=17 100>41 111s22 115s23 127s23 133l5 133t11
+. 242s9
+100p17 Root{13P6} 105r8 106r16 109r14 111r9 111r29 113r17 115r9 115r30 119r12
+. 120r20 121r15 122r20 125r28 126r9 127r9 127r30 131r12
+100i41 Key{integer} 109r8 111r40 113r11 115r42
+102p5 Temp{13P6} 125m9 126r22 127r42
+135K9 Nodes_Vectors[6|46] 136r5
+139U11 StoreBSTNodes 139b11 139>25 139=45 144s9 146s9 149l5 149t18 172s5
+139p25 Root{13P6} 143r8 144r23 145r22 146r23
+139r45 Nodes{6|57R9[135]} 144m34 145m9 145r9 146m35
+151V10 BuildTreeUtil{13P6} 151b10 151=24 151>47 151>64 160s18 161s19 165l5
+. 165t18 176s12
+151r24 Nodes{6|57R9[135]} 153r32 160m32 160r32 161m33 161r33
+151i47 Start{integer} 152r23 156r8 160r39
+151i64 Endd{integer} 152r31 156r16 161r49
+152i5 Mid{integer} 153r39 160r46 161r40
+153p5 Node{13P6} 160r5 161r5 163r12
+167V10 BuildTree{13P6} 167b10 167=20 178l5 178t14 244s9
+167p20 Root{13P6} 172r19
+168r5 Nodes{6|57R9[135]} 172m25 172r25 174r25 176m26 176r26
+169i5 N{integer} 174m5 176r36
+181U11 PrintJSON 181b11 181^21 189s9 194s9 197l5 197t14 247s1
+181p21 Bst(6R6) 182r26
+182p3 T(6R6) 185r30 186r8 189r19 191r8 194r19
+199U11 PrintTreeToFile 199b11 199^27 199>50 207s9 212s9 216l5 216t20 249s1
+199p27 Bst(6R6) 200r28
+199p50 Pl{17|52P9} 202r14 203r14 205r18 206r18 207r33 210r18 211r18 212r34
+. 214r14
+200p5 T(6R6) 203r34 204r8 207r25 209r8 212r25
+218p1 Tree{13P6} 225m22 225r22 234r7 236r14 242m1 242m16 242r16 244m1 244m19
+. 244r19 246r7 247r11 249r17
+219a1 Nazwa{string} 248r22
+220p1 Pl{17|52P9} 248m8 248r8 249r23 250m7 250r7
+X 23 system.ads
+67M9*Address
+X 36 s-memory.ads
+53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
+X 39 s-rannum.ads
+75V13*Random{20|74M9} 40|221i21
+76V13*Random{20|77M9} 40|221i21
+X 46 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+

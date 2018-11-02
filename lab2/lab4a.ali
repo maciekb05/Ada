@@ -1,0 +1,68 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U lab4a%b		lab4a.adb		4013c30f NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D lab4a.adb		20181030121357 c80e7055 lab4a%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|3r6 4r5
+X 6 a-textio.ads
+49K13*Text_IO 471e16 10|3w10 4r9
+52P9*File_Type 10|7r8
+53n23*In_File{53E9} 10|16r20
+92U14*Open 10|16s11
+98U14*Close 10|33s3
+249U14*Get_Line 10|14s9
+253V13*Get_Line{string} 10|27s21
+263U14*Put_Line 10|13s9 19s30 23s3 29s7 32s3
+294X4*Name_Error 10|19r16
+X 10 lab4a.adb
+6U11*Lab4a 6b11 34l5 34t10
+7p3 Pl{6|52P9} 16m16 16r16 27r31 33m9 33r9
+8a3 Nazwa{string} 14m18 16r29 19r64 23r32
+9i3 Dlugosc{integer} 14m25 16r38 19r73 23r41
+10a3 Napis{string}
+25i5 I{integer}
+27a7 A{string} 29r16
+

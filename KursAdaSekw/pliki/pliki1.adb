@@ -12,7 +12,7 @@ begin
   Put_Line(Pl, "Poczatek pliku"); -- do pliku
   for I in 1..10 loop
 	Put_Line(Pl,"Plik testowy, linia " & I'Img);
-  end loop;	   
+  end loop;
   Put_Line(Pl, "Koniec pliku testowego");
   Close(Pl); -- zamykamy plik
 end Pliki1;

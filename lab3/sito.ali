@@ -1,0 +1,91 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_ALLOCATORS_AFTER_ELABORATION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U sito%b		sito.adb		3cb4ce38 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-inteio.ads		20170908151217 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20170908151217 bb51c45a ada.numerics%s
+D a-nudira.ads		20180111085525 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180111085525 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-tiinio.ads		20180111085525 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D sito.adb		20181030090919 3307a929 sito%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-rannum.ads		20180111085525 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r19 1r40 2r5 2r18
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 15|1w23 2r22
+X 5 a-numeri.ads
+16K13*Numerics 32e17 15|1r44
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 15|1w53
+X 10 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|40s3
+242U14*Put 15|32s9
+263U14*Put_Line 15|19s5 23s5
+X 11 a-tiinio.ads
+66U14*Put 15|31s9[3|18]
+X 15 sito.adb
+4U11*Sito 4b11 99l5 99t9
+6R6 Element 10e11
+7i5 Liczba{integer} 31r15 48m5 73r29 78r22
+8b5 CzyPierwsza{boolean} 29r10 49m5 80m23
+9p5 Next 36r12 50m5 82r28 85r28
+12P6 Elem_Ptr 44r32 45r7 55r38 65r38 66r15 69r13 91r9
+14U11 Print 14b11 14^17 42l5 42t10 97s3
+14p17 List(6R6) 15r25 17r6
+15p3 L(6R6) 27r9 29r8 31r13 36m5 36r10
+44U11 Insert 44b11 44=18 44>42 53l5 53t11 60s9
+44p18 List{12P6} 50r13 51m3
+44i42 Liczba{integer} 48r15
+45p3 E{12P6} 48r3 49r3 50r3 51r11
+55U11 UzupelnijListe 55b11 55<26 55>48 63l5 63t19 95s3
+55p26 Lista{12P6} 60m16
+55i48 Ile{integer} 59r17 60r23
+59i9 I{integer} 60r33
+65U11 Wykreslanie 65b11 65=23 89l5 89t16 96s3
+65p23 Lista{12P6} 66r27 69r25
+66p5 Current{12P6} 72r11 73r21 75r18 85m9 85r20
+67i5 Pierwsza{integer} 73m9 74r26 79r50
+68i5 DoWykreslenia{integer} 74m9 78r31 79m17 79r34
+69p5 Inner{12P6} 75m9 77r15 78r16 80r17 82m13 82r22
+91p1 Lista{12P6} 95m18 95r18 96m15 96r15 97r9
+

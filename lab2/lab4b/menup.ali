@@ -1,0 +1,94 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U menup%b		menup.adb		2b75ea67 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W opcje%s		opcje.adb		opcje.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_lld%s	s-imglld.adb		s-imglld.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-calend.ads		20180111085525 2d5f01d4 ada.calendar%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D menup.adb		20181030125027 88e1438b menup%b
+D opcje.ads		20181016110112 06d61b62 opcje%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-imglld.ads		20180111085525 f3220969 system.img_lld%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|3r6 3r26 4r5 4r25
+X 2 a-calend.ads
+36K13*Calendar 395e17 11|3w30 4r29
+44I9*Time<213I9>
+50I12*Year_Number{integer}
+51I12*Month_Number{integer}
+52I12*Day_Number{integer}
+56O12*Day_Duration{duration}
+58V13*Clock{44I9} 11|25s30 27s31 29s29 31s48
+66V13*Year{50I12} 11|25s25
+67V13*Month{51I12} 11|27s25
+68V13*Day{52I12} 11|29s25
+69V13*Seconds{56O12} 11|31s40
+213I9 Time_Rep<long_long_integer>
+X 7 a-textio.ads
+49K13*Text_IO 471e16 11|3w10 4r9
+52P9*File_Type 11|20r37 35r6
+53n32*Out_File{53E9} 11|39r12
+86U14*Create 11|39s1
+98U14*Close 11|54s1
+166U14*New_Line 11|11s9
+223U14*Get_Immediate 11|43s9
+241U14*Put 11|25s17 26s17 27s17 28s17 29s17 30s17 31s17
+259U14*Put_Line 11|24s17 32s17
+263U14*Put_Line 11|12s9 13s3 14s9 15s9 16s9 17s9 23s17 49s22 52s3
+X 11 menup.adb
+6U11*MenuP 6b11 55l5 55t10
+7e3 Zn{character} 43m23 44r19 45r14
+9U13 Pisz_Menu 9b13 18l7 18t16 42s5
+20U19 PiszDziennik 20b19 20>32 20>48 20>64 33l13 33t25 40s1 53s1
+20p32 Pl{7|52P9} 24r26 25r21 26r21 27r21 28r21 29r21 30r21 31r21 32r26
+20a48 Nazwa{string} 23r44
+20a64 Zdarzenie{string} 24r30
+35p1 Pl{7|52P9} 39m8 39r8 40r14 53r14 54m7 54r7
+36a1 Nazwa{string} 39r22 40r18 53r18
+X 12 opcje.ads
+4K9*Opcje 11|3w19 4r18 12|10e10
+6U11*Opcja_S 11|46s23
+7U11*Opcja_C 11|47s23
+8U11*Opcja_P 11|48s23
+

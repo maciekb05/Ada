@@ -1,0 +1,53 @@
+{
+"Data": " 61"
+,
+"Left": 
+{
+"Data": " 31"
+,
+"Left": 
+{
+"Data": " 11"
+,
+"Right": 
+{
+"Data": " 15"
+}
+}
+,
+"Right": 
+{
+"Data": " 34"
+,
+"Right": 
+{
+"Data": " 48"
+}
+}
+}
+,
+"Right": 
+{
+"Data": " 87"
+,
+"Left": 
+{
+"Data": " 79"
+,
+"Right": 
+{
+"Data": " 80"
+}
+}
+,
+"Right": 
+{
+"Data": " 88"
+,
+"Right": 
+{
+"Data": " 97"
+}
+}
+}
+}
