@@ -21,7 +21,7 @@ begin
   
   Put_Line("Otwieram plik: " & Nazwa(1..Dlugosc));
 
-    for I in 1..6 loop
+    while not End_Of_File(Pl) loop
         declare
             A : String := Get_Line (Pl);
         begin

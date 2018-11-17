@@ -1,0 +1,180 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=5
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+
+U zad2%b		zad2.adb		b719e93f NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_7%s	s-conca7.adb		s-conca7.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20170911084841 76789da1 ada%s
+D a-except.ads		20180111085525 291912d5 ada.exceptions%s
+D a-finali.ads		20180111085525 bf4f806b ada.finalization%s
+D a-ioexce.ads		20170908151217 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20170908151217 bb51c45a ada.numerics%s
+D a-nudira.ads		20180111085525 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180111085525 72908cdb ada.numerics.discrete_random%b
+D a-nuflra.ads		20180111085525 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20180111085525 a87e2da7 ada.real_time%s
+D a-stream.ads		20180111085525 119b8fb3 ada.streams%s
+D a-tags.ads		20180111085525 491b781d ada.tags%s
+D a-textio.ads		20180111085525 881db35a ada.text_io%s
+D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180111085525 5ab55268 interfaces%s
+D i-c.ads		20170908151217 5421119b interfaces.c%s
+D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
+D system.ads		20180111085525 4635ec04 system%s
+D s-atacco.ads		20180111085525 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
+D s-conca7.ads		20180111085525 fcc75b1f system.concat_7%s
+D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180111085525 54135002 system.exception_table%s
+D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
+D s-finroo.ads		20180111085525 4ff27390 system.finalization_root%s
+D s-imenne.ads		20180111085525 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180111085525 c7a851e2 system.img_real%s
+D s-imguns.ads		20180111085525 9ff43cf7 system.img_uns%s
+D s-linux.ads		20180111085525 2fda6ad1 system.linux%s
+D s-multip.ads		20170908151217 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20180728061341 2a880dab system.os_constants%s
+D s-osinte.ads		20180111085525 c6986a0c system.os_interface%s
+D s-parame.ads		20180111085525 f896c45c system.parameters%s
+D s-rannum.ads		20180111085525 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180111085525 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180111085525 01a57b33 system.random_seed%s
+D s-secsta.ads		20180111085525 283dec34 system.secondary_stack%s
+D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
+D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180111085525 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
+D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180111085525 2b3f8252 system.task_info%s
+D s-taspri.ads		20180111085525 f40ac08d system.task_primitives%s
+D s-taprop.ads		20180111085525 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180111085525 1d8c1ccb system.tasking%s
+D s-taprob.ads		20180111085525 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20180111085525 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20180111085525 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20180111085525 cca55c94 system.tasking.stages%s
+D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
+D s-valuns.ads		20180111085525 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180111085525 1b7d22d2 system.wch_con%s
+D zad2.adb		20181117131334 0eb7acf0 zad2%b
+X 1 ada.ads
+16K9*Ada 20e8 55|1r6 1r19 1r46 2r5 2r18 57r34 60r42 63r37
+X 5 a-numeri.ads
+16K13*Numerics 32e17 55|1r23 1r50 2r22 57r38 60r46 63r41
+X 6 a-nudira.ads
+44k22*Discrete_Random 75e33 55|1w59 57r47 60r55 63r50
+50R9 Generator<34|63R9> 55|58r29[57] 61r45[60] 64r35[63]
+52V13 Random{55|6E10} 55|85s36[57] 89s44[60] 94s44[63]
+55U14 Reset<34|100p14> 55|73s19[57] 74s27[60] 75s22[63]
+X 7 a-nudira.adb
+53V16 Random[34|83]{55|7E10} 35|392b13[55|60]
+X 8 a-nuflra.ads
+41K22*Float_Random 74e30 55|1w32 2r31
+47R9*Generator<34|63R9> 55|66r14
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<34|71p13> 55|81s26
+53U14*Reset<34|100p14> 55|72s9
+X 12 a-textio.ads
+49K13*Text_IO 471e16 55|1w10 2r9
+242U14*Put 55|46s17
+263U14*Put_Line 55|44s13 48s13 104s9 112s5
+X 14 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 34 s-rannum.ads
+75V13*Random{14|74M9} 35|221i21
+76V13*Random{14|77M9} 35|221i21
+X 40 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 55 zad2.adb
+4U11*Zad2 4b11 114l5 114t9
+6E10 Kolor 6e49 22r30 31r19 57r63 84r39
+6n20 Czerwony{6E10} 31r28
+6n30 Zielony{6E10}
+6n39 Niebieski{6E10}
+7E10 DzienTygodnia 7e55 23r38 32r17 60r71 88r47
+7n28 Pn{7E10}
+7n32 Wt{7E10}
+7n36 Sr{7E10}
+7n40 Cz{7E10}
+7n44 Pt{7E10}
+7n48 So{7E10}
+7n52 Nd{7E10} 32r34
+8I10 Liczba50<integer> 9r41 63r66
+9A10 TablicaLiczb(8I10)<integer> 24r37 33r15 92r46
+11t10 Klient 28b15 53l9 53t15 110r5
+13Y15 Start 37b16 110s12
+17t10 Serwer 40r13 41r13 42r13 43r13 51r9 55b15 106l9 106t15 111r5
+19Y15 Start 70b16 111s12
+20Y15 Koniec 51s16 98b24
+21Y15 WeFloat 21<23 40s20 80b24 82l21 82t28
+21f23 I{float} 81m21 81r21
+22Y15 WeKolor 22<23 41s20 84b24 86l21 86t28
+22e23 I{6E10} 85m21 85r21
+23Y15 WeDzienTygodnia 23<31 42s20 88b24 90l21 90t36
+23e31 I{7E10} 89m21 89r21
+24Y15 WeTablicaLiczb 24<30 43s20 92b24 96l21 96t35
+24a30 I{9A10} 93m31 93r31
+30f9 Liczba{float} 40m28 44r54
+31e9 Kolorek{6E10} 41m28 44r73
+32e9 Dzien{7E10} 42m36 44r93
+33a9 Tab{9A10} 43m35 45r22
+39i13 K{integer} 44r22
+45i17 I=45:22{8I10} 46r27
+57K17 Los_Kolor[6|44] 58r19 73r9 85r26
+58r9 GenKolor{6|50R9[57]} 73r25 85r43
+60K17 Los_DzienTygodnia[6|44] 61r27 74r9 89r26
+61r9 GenDzienTygodnia{6|50R9[60]} 74r33 89r51
+63K17 Los_Liczba50[6|44] 64r22 75r9 94r31
+64r9 GenLiczba50{6|50R9[63]} 75r28 94r51
+66r9 Gen{8|47R9} 72r15 81r33
+80f32 I{float}
+84e32 I{6E10}
+88e40 I{7E10}
+92a39 I{9A10}
+93i25 El{8I10} 94r25
+

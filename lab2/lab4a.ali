@@ -12,7 +12,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV SPARK_05
 
-U lab4a%b		lab4a.adb		4013c30f NE OO SU
+U lab4a%b		lab4a.adb		a154c8ec NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -29,7 +29,7 @@ D a-textio.ads		20180111085525 881db35a ada.text_io%s
 D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180111085525 5ab55268 interfaces%s
 D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
-D lab4a.adb		20181030121357 c80e7055 lab4a%b
+D lab4a.adb		20181106175430 29497bb6 lab4a%b
 D system.ads		20180111085525 4635ec04 system%s
 D s-conca2.ads		20180111085525 02a0d7d0 system.concat_2%s
 D s-conca3.ads		20180111085525 0b705ca5 system.concat_3%s
@@ -50,19 +50,18 @@ X 1 ada.ads
 X 6 a-textio.ads
 49K13*Text_IO 471e16 10|3w10 4r9
 52P9*File_Type 10|7r8
-53n23*In_File{53E9} 10|16r20
-92U14*Open 10|16s11
+53n23*In_File{53E9} 10|15r20
+92U14*Open 10|15s11
 98U14*Close 10|33s3
-249U14*Get_Line 10|14s9
-253V13*Get_Line{string} 10|27s21
-263U14*Put_Line 10|13s9 19s30 23s3 29s7 32s3
-294X4*Name_Error 10|19r16
+183V13*End_Of_File{boolean} 10|24s15
+249U14*Get_Line 10|13s9
+253V13*Get_Line{string} 10|26s27
+263U14*Put_Line 10|12s9 18s30 22s3 28s13 32s3
+294X4*Name_Error 10|18r16
 X 10 lab4a.adb
 6U11*Lab4a 6b11 34l5 34t10
-7p3 Pl{6|52P9} 16m16 16r16 27r31 33m9 33r9
-8a3 Nazwa{string} 14m18 16r29 19r64 23r32
-9i3 Dlugosc{integer} 14m25 16r38 19r73 23r41
-10a3 Napis{string}
-25i5 I{integer}
-27a7 A{string} 29r16
+7p3 Pl{6|52P9} 15m16 15r16 24r27 26r37 33m9 33r9
+8a3 Nazwa{string} 13m18 15r29 18r64 22r32
+9i3 Dlugosc{integer} 13m25 15r38 18r73 22r41
+26a13 A{string} 28r22
 
