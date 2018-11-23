@@ -4,36 +4,29 @@ P ZX
 
 RN
 RV NO_EXCEPTION_HANDLERS
-RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
 RV NO_IO
-RV NO_LOCAL_PROTECTED_OBJECTS
-RV NO_NESTED_FINALIZATION
-RV NO_PROTECTED_TYPES
+RV NO_SELECT_STATEMENTS
 RV NO_STANDARD_STORAGE_POOLS
 RV NO_TASK_HIERARCHY
 RV NO_TASKING
 RV NO_DEFAULT_INITIALIZATION
 RV SPARK_05
-RV MAX_PROTECTED_ENTRIES=1
+RV MAX_SELECT_ALTERNATIVES=3
+RV MAX_TASK_ENTRIES=3
 RV MAX_TASKS=1+
-RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U semafor%b		semafor.adb		eebd1c32 NE OO SU IL
+U semzad%b		semzad.adb		437d3615 NE OO SU IL
 W ada%s			ada.ads			ada.ali
-Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 Z system%s		system.ads		system.ali
 Z system.parameters%s	s-parame.adb		s-parame.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
-Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
 Z system.tasking%s	s-taskin.adb		s-taskin.ali
-Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
-Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
-Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
 D ada.ads		20170911084841 76789da1 ada%s
@@ -48,7 +41,7 @@ D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180111085525 5ab55268 interfaces%s
 D i-c.ads		20170908151217 5421119b interfaces.c%s
 D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
-D semafor.adb		20181123190802 66a0af68 semafor%b
+D semzad.adb		20181123193605 cb60854f semzad%b
 D system.ads		20180111085525 4635ec04 system%s
 D s-atacco.ads		20180111085525 4c36d12f system.address_to_access_conversions%s
 D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
@@ -56,7 +49,6 @@ D s-exctab.ads		20180111085525 54135002 system.exception_table%s
 D s-ficobl.ads		20180111085525 078245e4 system.file_control_block%s
 D s-finroo.ads		20180111085525 4ff27390 system.finalization_root%s
 D s-linux.ads		20180111085525 2fda6ad1 system.linux%s
-D s-memory.ads		20180111085525 597d6634 system.memory%s
 D s-multip.ads		20170908151217 38ac9f73 system.multiprocessors%s
 D s-oscons.ads		20180728061341 2a880dab system.os_constants%s
 D s-osinte.ads		20180111085525 c6986a0c system.os_interface%s
@@ -66,7 +58,6 @@ D s-soflin.ads		20180111085525 a7318a92 system.soft_links%s
 D s-stache.ads		20180111085525 a37c21ec system.stack_checking%s
 D s-stausa.ads		20180111085525 017a0a05 system.stack_usage%s
 D s-stalib.ads		20180111085525 09bd3940 system.standard_library%s
-D s-stalib.adb		20180111085525 f2fe2716 system.standard_library%b
 D s-stoele.ads		20180111085525 2dc34a04 system.storage_elements%s
 D s-tasinf.ads		20180111085525 2b3f8252 system.task_info%s
 D s-taspri.ads		20180111085525 f40ac08d system.task_primitives%s
@@ -74,7 +65,7 @@ D s-taprop.ads		20180111085525 1dd2e1b6 system.task_primitives.operations%s
 D s-taskin.ads		20180111085525 1d8c1ccb system.tasking%s
 D s-taprob.ads		20180111085525 acd6094d system.tasking.protected_objects%s
 D s-tpoben.ads		20180111085525 60ad3dae system.tasking.protected_objects.entries%s
-D s-tpobop.ads		20180111085525 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20180111085525 a67a9949 system.tasking.rendezvous%s
 D s-tassta.ads		20180111085525 cca55c94 system.tasking.stages%s
 D s-traent.ads		20180111085525 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20180111085525 34867c83 system.unsigned_types%s
@@ -83,26 +74,17 @@ X 1 ada.ads
 16K9*Ada 20e8 13|1r6 2r5
 X 8 a-textio.ads
 49K13*Text_IO 471e16 13|1w10 2r9
-208U14*Put 13|42s13
-263U14*Put_Line 13|17s13 30s9 32s9 44s9 46s9 51s5
-X 13 semafor.adb
-4U11*semafor 4b11 53l5 53t12
-6w15 SB 13b20 24l9 24t11 31r9 45r9
-7Y15 Czekaj 14b15 18l13 18t19 31s12
-8U19 Sygnalizuj 20b19 23l13 23t23 45s12
-10b9 Sem{boolean} 14r27 16r13 22r13
-26t10 Zad1 28b15 33l9 33t13
-37t10 Zad2 39b15 47l9 47t13
-41i13 I{integer}
-X 14 system.ads
-67M9*Address
-X 21 s-memory.ads
-53V13*Alloc{14|67M9} 103i<c,__gnat_malloc>22
-68U14*Free 104i<c,__gnat_free>22
-76V13*Realloc{14|67M9} 105i<c,__gnat_realloc>22
-X 29 s-stausa.ads
+263U14*Put_Line 13|21s21 45s9 47s9 55s9 57s9 62s5
+X 13 semzad.adb
+4U11*semzad 4b11 64l5 64t11
+6t10 SB 12b15 39l9 39t11 46r9 48r9 56r9
+7Y15 Czekaj 18b24 22l21 22t27 46s12
+8Y15 Sygnalizuj 30b24 33l21 33t31 56s12
+9Y15 Koniec 35b24 48s12
+13b9 Sem{boolean} 17r22 20m21 32m21
+41t10 Zad1 43b15 49l9 49t13
+51t10 Zad2 53b15 58l9 58t13
+X 28 s-stausa.ads
 203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
 268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
-X 31 s-stalib.adb
-93U14 Break_Start 94i<c,__gnat_break_start>22
 

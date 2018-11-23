@@ -66,7 +66,7 @@ procedure buforcykliczny is
             Put("a");
         end loop;
         Put_Line("Zaczynam pobierac");
-        for I in 1..15 loop
+        for I in 1..16 loop
             Bufor.Pobierz(Znak);
             Put_Line("Pobralem " & Znak'Img);
         end loop;

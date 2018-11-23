@@ -3,6 +3,7 @@ M P W=b
 P ZX
 
 RN
+RV SIMPLE_BARRIERS
 RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
@@ -19,7 +20,7 @@ RV MAX_PROTECTED_ENTRIES=1
 RV MAX_TASKS=1+
 RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U semafor%b		semafor.adb		eebd1c32 NE OO SU IL
+U sem%b			sem.adb			8b09aea2 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -48,7 +49,7 @@ D a-unccon.ads		20170908151217 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20180111085525 5ab55268 interfaces%s
 D i-c.ads		20170908151217 5421119b interfaces.c%s
 D i-cstrea.ads		20180111085525 e53d8b8e interfaces.c_streams%s
-D semafor.adb		20181123190802 66a0af68 semafor%b
+D sem.adb		20181123192809 03141df8 sem%b
 D system.ads		20180111085525 4635ec04 system%s
 D s-atacco.ads		20180111085525 4c36d12f system.address_to_access_conversions%s
 D s-crtl.ads		20180111085525 0ebbdb71 system.crtl%s
@@ -83,17 +84,19 @@ X 1 ada.ads
 16K9*Ada 20e8 13|1r6 2r5
 X 8 a-textio.ads
 49K13*Text_IO 471e16 13|1w10 2r9
-208U14*Put 13|42s13
-263U14*Put_Line 13|17s13 30s9 32s9 44s9 46s9 51s5
-X 13 semafor.adb
-4U11*semafor 4b11 53l5 53t12
-6w15 SB 13b20 24l9 24t11 31r9 45r9
-7Y15 Czekaj 14b15 18l13 18t19 31s12
-8U19 Sygnalizuj 20b19 23l13 23t23 45s12
-10b9 Sem{boolean} 14r27 16r13 22r13
-26t10 Zad1 28b15 33l9 33t13
-37t10 Zad2 39b15 47l9 47t13
-41i13 I{integer}
+208U14*Put 13|52s13
+263U14*Put_Line 13|17s13 22s13 34s9 40s9 46s9 60s1
+X 13 sem.adb
+4U11*sem 4b11 62l5 62t8
+6w15 SL 13b20 24l9 24t11 33r9 39r9 45r9 54r9
+7Y15 Czekaj 14b15 18l13 18t19 33s12 39s12 45s12
+8U19 Sygmalizuj 19b19 23l13 23t23 54s12
+10i9 Sem{integer} 14r27 16r13 16r18 21r13 21r18
+26t10 zad1 31b15 35l9 35t13
+27t10 zad2 37b15 41l9 41t13
+28t10 zad3 43b15 47l9 47t13
+29t10 zad4 49b15 55l9 55t13
+51i13 I{integer}
 X 14 system.ads
 67M9*Address
 X 21 s-memory.ads
